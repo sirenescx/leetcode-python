@@ -7,7 +7,7 @@ class Solution:
         return value
         
     def isSumEqual(self, firstWord: str, secondWord: str, targetWord: str) -> bool:
-        values = list(map(self.getValueOfWord, [firstWord, secondWord, targetWord]))
+        values: List[int] = list(map(self.getValueOfWord, [firstWord, secondWord, targetWord]))
         
         return values[0] + values[1] == values[2]
 
