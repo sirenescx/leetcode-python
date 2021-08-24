@@ -1,6 +1,6 @@
 class Solution:
     def getValueOfWord(self, word: str) -> int:
-        value = 0
+        value: int = 0
         for letter in word:
             value = value * 10 + (ord(letter) - 97)
         
