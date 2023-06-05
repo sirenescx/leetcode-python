@@ -1,4 +1,4 @@
-# Intuition
+# Approach
 Hash table for faster search
 
 # Code
